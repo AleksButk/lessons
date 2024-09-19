@@ -1,7 +1,7 @@
 @import url(rezet.css);
 
 * {
-    codlor: coral;
+    color: coral;
 }
 
 .item * {
@@ -47,6 +47,7 @@ h6 {
 .bigriv a {
     color: gold;
 }
+
 .main {}
 
 .subtitle {}
@@ -78,15 +79,19 @@ p.info {
 #link-3 {
     color: green;
 }
-.box h2{
+
+.box h2 {
     color: aqua;
 }
-.item li{
+
+.item li {
     color: blueviolet;
 }
-.river > p {
+
+.river>p {
     color: chartreuse;
 }
-.exp + p {
-    color:red;
+
+.exp+p {
+    color: red;
 }
