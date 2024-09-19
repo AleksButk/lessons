@@ -1,0 +1,92 @@
+@import url(rezet.css);
+
+* {
+    codlor: coral;
+}
+
+.item * {
+    color: greenyellow;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: blue;
+}
+
+.text {
+    color: black;
+}
+
+.header {}
+
+.box * {
+    color: greenyellow;
+}
+
+.title {
+    color: blue;
+}
+
+.title,
+.size {
+    color: rgb(166, 49, 49);
+}
+
+.link .content {
+    color: darkgoldenrod;
+}
+
+.bigriv * {
+    color: black;
+}
+
+.bigriv a {
+    color: gold;
+}
+.main {}
+
+.subtitle {}
+
+.size {}
+
+.river {}
+
+.name {
+    color: green;
+}
+
+.text {}
+
+.item {}
+
+.footer * {
+    color: aqua;
+}
+
+[class*="fo"] {
+    color: blue;
+}
+
+p.info {
+    color: black;
+}
+
+#link-3 {
+    color: green;
+}
+.box h2{
+    color: aqua;
+}
+.item li{
+    color: blueviolet;
+}
+.river > p {
+    color: chartreuse;
+}
+.exp + p {
+    color:red;
+}
