@@ -1,5 +1,60 @@
-@import url("rezet.css");
+/*google fonts*/ 
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+/*plugin*/
+@import url("https://fonts.googleapis.com/css?family=DM+Sans:regular,500,700&display=swap");
 
-.bug {
+@import url("rezet.css");
+@import url("fonts.css");
+body{
+    font-family: "dm+Sans", sans-serif;
+    font-weight:400;
+}
+.title {
+    text-align: center;
+    font-family: "work+sans", sans-serif;
+    font-style: oblique;
+    font-size: 20px;
+    font-weight: 600;
+    color: brown;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    text-decoration: underline;
+    line-height: 5;
+}
+header{
+    font-family: "roboto", sans-serif;
+    font-weight: 500;
+    text-align: center;
+   }
+.headline-title {
+    color: rgba(0, 0, 255, 0.141);
+    font-size: 30px;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-style: italic;
+}
+a {
+    text-decoration: underline;
+    color: green;
+    text-shadow: 2px -2px 5px red;
+    line-height: 3;
+    word-spacing: 8px;
+}
+.text-basis{
+    line-height: 2.5;
+}
+.name{
+    text-decoration:line-through;
+    color: blueviolet;
+    text-decoration-color: red;
+    text-decoration-style: wavy;
+}
+.text{
+    white-space: nowrap;
+    line-height: 2;
+}
+.final{
     text-align: center;
 }
